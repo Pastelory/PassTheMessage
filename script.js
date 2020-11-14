@@ -6,7 +6,7 @@ sendBtn.addEventListener('click', sendMsg)
 
 
 function sendMsg(){
-let content = messageIn.nodeValue;
+let content = messageIn.value;
 if(content === ''){
     alert('Please Enter Valid Value. Current Value is Empty');
 }
